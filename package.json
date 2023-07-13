@@ -1,0 +1,31 @@
+{
+  "name": "find-code-file",
+  "version": "0.0.1",
+  "description": "Collect code file name with code.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nmsn/find-code-file.git"
+  },
+  "keywords": [
+    "search-code",
+    "node",
+    "file-path"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmsn/find-code-file/issues"
+  },
+  "homepage": "https://github.com/nmsn/find-code-file#readme",
+  "dependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.3",
+    "inquirer": "^9.2.7"
+  }
+}
